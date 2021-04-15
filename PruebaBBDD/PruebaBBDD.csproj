@@ -127,6 +127,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VentanaPrincipal.resx">
       <DependentUpon>VentanaPrincipal.cs</DependentUpon>
@@ -144,6 +145,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokedex1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokedex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_bicho.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_drag%253Fn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_el%253Fctrico.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_fantasma.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_fuego.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_hada.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_hielo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_lucha.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_normal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_planta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_ps%253Fquico.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_roca.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_siniestro.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_tierra.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_veneno.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_volador.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_%253F%253F%253F.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_acero.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_agua.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

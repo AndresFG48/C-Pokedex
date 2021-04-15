@@ -55,6 +55,32 @@ namespace PruebaBBDD
             DataTable pokemonElegido = miConexion.getPokemonsPorID(idActual);
             nombrePokemon.Text = pokemonElegido.Rows[0]["nombre"].ToString();
             pictureBox1.Image = convierteBlobAImagen((byte[])pokemonElegido.Rows[0]["imagen"]);
+
+            //Con esto dibujamos el peso y la altura.
+            label5.Text = pokemonElegido.Rows[0]["peso"].ToString();
+            label6.Text = pokemonElegido.Rows[0]["altura"].ToString();
+
+            //Con esto dibujamos los movimientos.
+            label1.Text = pokemonElegido.Rows[0]["movimiento1"].ToString();
+            label2.Text = pokemonElegido.Rows[0]["movimiento2"].ToString();
+            label3.Text = pokemonElegido.Rows[0]["movimiento3"].ToString();
+            label4.Text = pokemonElegido.Rows[0]["movimiento4"].ToString();
+
+            //Con esto la descripcion.
+            descripcion.Text = pokemonElegido.Rows[0]["descripcion"].ToString();
+
+            //Con esto dibujamos el tipo de pokemon.
+            switch (pictureBox2.Image = convierteBlobAImagen((pokemonElegido.Rows[0]["tipo1 WHERE"].ToString()))
+            {
+
+            }
+
+        }
+
+        //Creamos un metodo para dibujar el tipo de pokemos que es.
+        public void tipoPokemon()
+        {
+
         }
     }
 }
