@@ -70,16 +70,6 @@ namespace PruebaBBDD
             descripcion.Text = pokemonElegido.Rows[0]["descripcion"].ToString();
 
             //Con esto dibujamos el tipo de pokemon.
-            switch (pictureBox2.Image = convierteBlobAImagen((pokemonElegido.Rows[0]["tipo1 WHERE"].ToString()))
-            {
-
-            }
-
-        }
-
-        //Creamos un metodo para dibujar el tipo de pokemos que es.
-        public void tipoPokemon()
-        {
 
         }
     }
