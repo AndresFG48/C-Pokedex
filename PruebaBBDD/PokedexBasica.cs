@@ -69,8 +69,54 @@ namespace PruebaBBDD
             //Con esto la descripcion.
             descripcion.Text = pokemonElegido.Rows[0]["descripcion"].ToString();
 
-            //Con esto dibujamos el tipo de pokemon.
+            //Con esto dibujamos el tipo1 de pokemon.
+            switch (pokemonElegido.Rows[0]["tipo1"].ToString())
+            {
+                case "Acero": pictureBox2.Image = Properties.Resources.Tipo_acero; break;
+                case "Agua": pictureBox2.Image = Properties.Resources.Tipo_agua; break;
+                case "Bicho": pictureBox2.Image = Properties.Resources.Tipo_bicho; break;
+                case "Dragon": pictureBox2.Image = Properties.Resources.Tipo_drag_3Fn; break;
+                case "Electrico": pictureBox2.Image = Properties.Resources.Tipo_el_3Fctrico; break;
+                case "Fantasma": pictureBox2.Image = Properties.Resources.Tipo_fantasma; break;
+                case "Fuego": pictureBox2.Image = Properties.Resources.Tipo_fuego; break;
+                case "Hada": pictureBox2.Image = Properties.Resources.Tipo_hada; break;
+                case "Hielo": pictureBox2.Image = Properties.Resources.Tipo_hielo; break;
+                case "Lucha": pictureBox2.Image = Properties.Resources.Tipo_lucha; break;
+                case "Normal": pictureBox2.Image = Properties.Resources.Tipo_normal; break;
+                case "Planta": pictureBox2.Image = Properties.Resources.Tipo_planta; break;
+                case "Psiquico": pictureBox2.Image = Properties.Resources.Tipo_ps_3Fquico; break;
+                case "Roca": pictureBox2.Image = Properties.Resources.Tipo_roca; break;
+                case "Siniestro": pictureBox2.Image = Properties.Resources.Tipo_siniestro; break;
+                case "Tierra": pictureBox2.Image = Properties.Resources.Tipo_tierra; break;
+                case "Veneno": pictureBox2.Image = Properties.Resources.Tipo_veneno; break;
+                case "Volador": pictureBox2.Image = Properties.Resources.Tipo_volador; break;
+                default: pictureBox2.Image = Properties.Resources.Tipo__3F_3F_3F; break;
+            }
 
+            //Con esto dibujamos el tipo2 de pokemon.
+            switch (pokemonElegido.Rows[0]["tipo2"].ToString())
+            {
+                case "Acero": pictureBox3.Image = Properties.Resources.Tipo_acero; break;
+                case "Agua": pictureBox3.Image = Properties.Resources.Tipo_agua; break;
+                case "Bicho": pictureBox3.Image = Properties.Resources.Tipo_bicho; break;
+                case "Dragon": pictureBox3.Image = Properties.Resources.Tipo_drag_3Fn; break;
+                case "Electrico": pictureBox3.Image = Properties.Resources.Tipo_el_3Fctrico; break;
+                case "Fantasma": pictureBox3.Image = Properties.Resources.Tipo_fantasma; break;
+                case "Fuego": pictureBox3.Image = Properties.Resources.Tipo_fuego; break;
+                case "Hada": pictureBox3.Image = Properties.Resources.Tipo_hada; break;
+                case "Hielo": pictureBox3.Image = Properties.Resources.Tipo_hielo; break;
+                case "Lucha": pictureBox3.Image = Properties.Resources.Tipo_lucha; break;
+                case "Normal": pictureBox3.Image = Properties.Resources.Tipo_normal; break;
+                case "Planta": pictureBox3.Image = Properties.Resources.Tipo_planta; break;
+                case "Psiquico": pictureBox3.Image = Properties.Resources.Tipo_ps_3Fquico; break;
+                case "Roca": pictureBox3.Image = Properties.Resources.Tipo_roca; break;
+                case "Siniestro": pictureBox3.Image = Properties.Resources.Tipo_siniestro; break;
+                case "Tierra": pictureBox3.Image = Properties.Resources.Tipo_tierra; break;
+                case "Veneno": pictureBox3.Image = Properties.Resources.Tipo_veneno; break;
+                case "Volador": pictureBox3.Image = Properties.Resources.Tipo_volador; break;
+                default: pictureBox3.Image = Properties.Resources.Tipo__3F_3F_3F; break;
+
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)

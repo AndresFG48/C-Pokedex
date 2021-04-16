@@ -36,6 +36,10 @@ namespace PruebaBBDD
             this.pokemon = new System.Windows.Forms.PictureBox();
             this.pre_pokemon = new System.Windows.Forms.PictureBox();
             this.nombrePokemon = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pos_pokemon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pokemon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pre_pokemon)).BeginInit();
@@ -51,7 +55,7 @@ namespace PruebaBBDD
             // 
             // Nombre
             // 
-            this.Nombre.Location = new System.Drawing.Point(316, 335);
+            this.Nombre.Location = new System.Drawing.Point(313, 293);
             this.Nombre.Name = "Nombre";
             this.Nombre.Size = new System.Drawing.Size(159, 44);
             this.Nombre.TabIndex = 5;
@@ -99,12 +103,54 @@ namespace PruebaBBDD
             this.nombrePokemon.Text = "EVOLUCIONES";
             this.nombrePokemon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(408, 367);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 23);
+            this.label1.TabIndex = 8;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(405, 405);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 23);
+            this.label2.TabIndex = 9;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(335, 367);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 23);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Especie";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(332, 405);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 23);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Habitat";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // evolucines
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.nombrePokemon);
             this.Controls.Add(this.Pos);
             this.Controls.Add(this.Nombre);
@@ -129,5 +175,9 @@ namespace PruebaBBDD
         private System.Windows.Forms.Label Nombre;
         private System.Windows.Forms.Label Pos;
         private System.Windows.Forms.Label nombrePokemon;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -19,6 +19,8 @@ namespace PruebaBBDD
             InitializeComponent();
             DataTable pokemonElegido = miConexion.getPokemonsPorID(idActual);
             Nombre.Text = pokemonElegido.Rows[0]["nombre"].ToString();
+            label1.Text = pokemonElegido.Rows[0]["especie"].ToString();
+            label2.Text = pokemonElegido.Rows[0]["habitat"].ToString();
             pokemon.Image = convierteBlobAImagen((byte[])pokemonElegido.Rows[0]["imagen"]);
             if (pokemonElegido.Rows[0]["posEvolucion"] != DBNull.Value)
             {

@@ -27,6 +27,7 @@ namespace PruebaBBDD
         {
             PokedexBasica ventana = new PokedexBasica();
             ventana.Show();
+
         }
     }
 }

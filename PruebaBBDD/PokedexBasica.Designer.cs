@@ -87,7 +87,7 @@ namespace PruebaBBDD
             // 
             this.nombrePokemon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.nombrePokemon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nombrePokemon.Location = new System.Drawing.Point(392, 244);
+            this.nombrePokemon.Location = new System.Drawing.Point(393, 244);
             this.nombrePokemon.Name = "nombrePokemon";
             this.nombrePokemon.Size = new System.Drawing.Size(161, 42);
             this.nombrePokemon.TabIndex = 3;
