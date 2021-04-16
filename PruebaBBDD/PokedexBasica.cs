@@ -72,5 +72,11 @@ namespace PruebaBBDD
             //Con esto dibujamos el tipo de pokemon.
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            evolucines ventana = new evolucines(idActual);
+            ventana.Show();
+        }
     }
 }

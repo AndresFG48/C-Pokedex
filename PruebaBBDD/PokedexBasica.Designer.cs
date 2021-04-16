@@ -44,6 +44,8 @@ namespace PruebaBBDD
             this.descripcion = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -167,9 +169,9 @@ namespace PruebaBBDD
             // descripcion
             // 
             this.descripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.descripcion.Location = new System.Drawing.Point(354, 372);
+            this.descripcion.Location = new System.Drawing.Point(354, 364);
             this.descripcion.Name = "descripcion";
-            this.descripcion.Size = new System.Drawing.Size(244, 56);
+            this.descripcion.Size = new System.Drawing.Size(244, 64);
             this.descripcion.TabIndex = 12;
             // 
             // pictureBox3
@@ -190,12 +192,34 @@ namespace PruebaBBDD
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Blue;
+            this.button3.Location = new System.Drawing.Point(41, 323);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(24, 24);
+            this.button3.TabIndex = 16;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.Red;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Uighur", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(76, 330);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(55, 22);
+            this.textBox3.TabIndex = 17;
+            this.textBox3.Text = "Evoluciones";
+            // 
             // PokedexBasica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PruebaBBDD.Properties.Resources.pokedex1;
             this.ClientSize = new System.Drawing.Size(620, 449);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.descripcion);
@@ -238,5 +262,7 @@ namespace PruebaBBDD
         private System.Windows.Forms.Label descripcion;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
